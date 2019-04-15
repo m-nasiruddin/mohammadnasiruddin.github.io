@@ -1,21 +1,24 @@
 <!DOCTYPE html>
 <html>
+
     <head>
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta charset="UTF-8">
+        <!-- Description -->
         <title>Mohammad Nasiruddin's personal page</title>
-        <meta name="description" content="Mohammad Nasiruddin's personal page">
         <meta name="author" content="Mohammad Nasiruddin">
+        <base href="https://mohammadnasiruddin.github.io">
+        <meta name="description" content="Mohammad Nasiruddin's personal page">
+        <meta name="keywords" content="natural language processing, pattern recognition, big data, heterogeneous content indexing, document analysis, image analysis, machine learning, deep learning">
+        <!-- Device and Browser Support -->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-        <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <!--[if lt IE 9]>
-        <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js">
-        </script>
-        <script src="//cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js">
-        </script>
-        <![endif]-->
+<script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js">
+</script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js">
+</script>
+<![endif]-->
+        <!-- Favicon -->
         <link rel="shortcut icon" href="favicons/favicon.ico">
         <meta name="mobile-web-app-capable" content="yes">
         <link rel="icon" sizes="512x512" href="images/favicons/android-chrome-512x512.png">
@@ -24,48 +27,130 @@
         <link rel="icon" type="image/png" sizes="32x32" href="images/favicons/favicon-32x32.png">
         <link rel="icon" type="image/png" sizes="16x16" href="images/favicons/favicon-16x16.png">
         <link rel="manifest" href="images/favicons/site.webmanifest">
-        <base href="https://mohammadnasiruddin.github.io//" target="_blank">
-        <meta name="keywords" content="natural language processing, pattern recognition, big data, heterogeneous content indexing, document analysis, image analysis, machine learning, deep learning">
+        <!-- Style Sheet -->
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <style>
             html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
+            .atcharhere:before { content: '@'; }
         </style>
     </head>
+
     <body class="w3-light-grey">
         <!-- SCRIPTS -->
         <!-- Example: <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script> -->
+        <!-- Navigation -->
+        <nav class="w3-bar w3-top w3-large w3-border w3-round w3-card w3-teal w3-padding-small">
+            <a href="#" class="w3-button w3-round w3-bar-item w3-border-right" style="width: 16%"><i class="fa fa-fw fa-home"></i> Home</a>
+            <a href="#news" class="w3-button w3-round w3-bar-item w3-border-right" style="width: 16%"><i class="fa fa-fw fa-comments"></i> News</a>
+            <a href="#projects" class="w3-button w3-round w3-bar-item w3-border-right" style="width: 16%"><i class="fa fa-fw fa-briefcase"></i> Projects</a>
+            <a href="#tools" class="w3-button w3-round w3-bar-item w3-border-right" style="width: 16%"><i class="fa fa-fw fa-code-fork"></i> Tools</a>
+            <a href="#publications" class="w3-button w3-round w3-bar-item w3-border-right" style="width: 16%"><i class="fa fa-fw fa-book"></i> Publications</a>
+            <a href="#résumé" class="w3-button w3-round w3-bar-item w3-border-right" style="width: 16%"><i class="fa fa-fw fa-suitcase"></i> Résumé</a>
+        </nav>
         <!-- Page Container -->
-        <div class="w3-content w3-margin-top" style="max-width:1400px;">
+        <div class="w3-content w3-margin-top w3-padding-48" style="max-width:1400px;">
             <!-- The Grid -->
             <div class="w3-row-padding">
                 <!-- Left Column -->
                 <div class="w3-third">
-                    <div class="w3-white w3-text-grey w3-card-4">
+                    <!-- Profile Image and Title -->
+                    <div class="w3-card w3-white w3-text-grey w3-padding-32 w3-center">
                         <div class="w3-display-container">
-                            <img src="images/my_images/mohammad_nasiruddin.png" class="w3-circle" style="width:50%" align="middle" alt="Mohammad Nasiruddin">
-                            <div class="w3-display-bottomleft w3-container w3-text-black">
+                            <img src="images/my_images/mohammad_nasiruddin.png" style="border-radius: 50%; width: 50%" alt="Mohammad Nasiruddin">
+                            <div class="w3-container w3-text-black">
                                 <h2>Mohammad Nasiruddin</h2>
                             </div>
                         </div>
+                        <!-- Personal Information -->
                         <div class="w3-container">
                             <p><i class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-teal"></i>Research & development</p>
+                            <p><i class="fa fa-institution fa-fw w3-margin-right w3-large w3-text-teal"></i>Computer Science, Image and Interaction Laboratory</p>
                             <p><i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-teal"></i>La Rochelle, France</p>
                             <p><i class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-teal"></i>mohammad.nasiruddin(at)laposte.net</p>
-                            <p><i class="fa fa-phone fa-fw w3-margin-right w3-large w3-text-teal"></i>+33 (0)6 95 41 99 95
+                            <i class="fa fa-phone fa-fw w3-margin-right w3-large w3-text-teal"></i>+33 (0)6 95 41 99 95
                             <hr>
-                            <i class="fa fa-facebook w3-hover-opacity"></i>
-                            <i class="fa fa-instagram w3-hover-opacity"></i>
-                            <i class="fa fa-snapchat w3-hover-opacity"></i>
-                            <i class="fa fa-pinterest-p w3-hover-opacity"></i>
-                            <i class="fa fa-twitter w3-hover-opacity"></i>
-                            <i class="fa fa-linkedin w3-hover-opacity"></i>
-                            <br>
                         </div>
+                        <!-- Social Network -->
+                        <div class="w3-container">
+                            <a href="https://scholar.google.com/citations?user=GjagO0gAAAAJ&hl=en">
+                                <i class="fa fa-graduation-cap fa-fw w3-xxlarge w3-text-teal w3-hover-opacity"></i>
+                            </a>
+                            <a href="https://www.linkedin.com/in/nasiruddinmohammad/">
+                                <i class="fa fa-linkedin fa-fw w3-xxlarge w3-text-teal w3-hover-opacity"></i>
+                            </a>
+                            <a href="https://scholar.google.fr/citations?user=GjagO0gAAAAJ&hl=fr">
+                                <i class="fa fa-twitter fa-fw w3-xxlarge w3-text-teal w3-hover-opacity"></i>
+                            </a>
+                            <a href="https://scholar.google.fr/citations?user=GjagO0gAAAAJ&hl=fr">
+                                <i class="fa fa-instagram fa-fw w3-xxlarge w3-text-teal w3-hover-opacity"></i>
+                            </a>
+                            <br>
+
+                        </div>
+
                     </div><br>
                     <!-- End Left Column -->
                 </div>
                 <!-- Right Column -->
                 <div class="w3-twothird">
-
+                    <!-- First Container -->
+                    <div class="w3-container w3-card w3-white w3-margin-bottom">
+                        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-home fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Me</h2>
+                        <p class="w3-row-padding">
+                            I am from <a href="https://en.wikipedia.org/wiki/Bangladesh">Bangladesh</a>, a small country in South Asia. I was born and raised in <a href="https://en.wikipedia.org/wiki/Narayanganj">Narayanganj</a>, a city in central Bangladesh, around 15 kilometers away from the capital city Dhaka.
+                        </p>
+                        <p class="w3-row-padding">
+                            Currently, I am doing my PhD at the <a href="https://www.univ-larochelle.fr">University of La Rochelle</a>, <a href="https://l3i.univ-larochelle.fr">Laboratoire Informatique, Image et Interaction (L3i)</a> in La Rochelle, France. 
+                            My main research focus is <a href="http://www.liglab.fr">pattern recognition</a> and <a href="http://www.liglab.fr">machine learning</a> for <a href="http://www.liglab.fr">document analysis</a> and understanding. I work with different heterogeneous and multimodal documents, like text documents and documents with images.
+                        </p>
+                        <p class="w3-row-padding">
+                            I received my Master of Science degree from the <a href="http://uap-bd.edu">University of Asia Pacific</a> in computer science and engineering. During my master thesis, I worked on a small project of <a href="https://en.wikipedia.org/wiki/Bengali_language">Bengali</a> <a href="https://en.wikipedia.org/wiki/Speech_recognition">speech recognition</a> (my mother tongue and also widely known as Bangla) under the supervision of <a href="http://cse.uiu.ac.bd/profiles/mnh">Prof. Mohammad Nurul Huda</a>.
+                        </p>
+                        <p class="w3-row-padding">
+                            Previously, I worked as a research assistant at the <a href="http://www.liglab.fr">Grenoble computer science laboratory (LIG)</a>, where I worked on different projects related to an under-resourced language (i.e., Bengali), <a href="https://en.wikipedia.org/wiki/Word-sense_disambiguation">lexical disambiguation</a>, and <a href="https://en.wikipedia.org/wiki/Statistical_machine_translation">statistical machine translation</a>.
+                        </p>
+                        <p class="w3-row-padding">
+                            Along with my professional work, I devote my learning in <a href="https://en.wikipedia.org/wiki/Astrophysics">astrophysics</a> and <a href="https://en.wikipedia.org/wiki/Mathematics">mathematics</a>.
+                        </p>
+                    </div>
+                    <!-- Second Container -->
+                    <div class="w3-container w3-card w3-white w3-margin-bottom">
+                        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-comments fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>News</h2>
+                        <p class="w3-row-padding">
+                            News are coming soon...
+                        </p>
+                    </div>
+                    <!-- Third Container -->
+                    <div class="w3-container w3-card w3-white w3-margin-bottom">
+                        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-briefcase fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Projects</h2>
+                        <p class="w3-row-padding">
+                            Projects are coming soon...
+                        </p>
+                    </div>
+                    <!-- Fourth Container -->
+                    <div class="w3-container w3-card w3-white w3-margin-bottom">
+                        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-code-fork fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Tools</h2>
+                        <p class="w3-row-padding">
+                            Projects are coming soon...
+                        </p>
+                    </div>
+                    <!-- Fifth Container -->
+                    <div class="w3-container w3-card w3-white w3-margin-bottom">
+                        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-book fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Publications</h2>
+                        <p class="w3-row-padding">
+                            Publications are coming soon...
+                        </p>
+                    </div>
+                    <!-- Sixth Container -->
+                    <div class="w3-container w3-card w3-white w3-margin-bottom">
+                        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Résumé</h2>
+                        <p class="w3-row-padding">
+                            My résumé is coming soon...
+                        </p>
+                    </div>
+                    <!--
                     <div class="w3-container w3-card w3-white w3-margin-bottom">
                         <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Experience</h2>
                         <div class="w3-container">
@@ -131,7 +216,6 @@
                             <p>– Giving support to teachers (with classes) and pupils (with lab assignments)</p><br>
                         </div>
                     </div>
-
                     <div class="w3-container w3-card w3-white w3-margin-bottom">
                         <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Education</h2>
                         <div class="w3-container">
@@ -146,7 +230,6 @@
                             <p>Bachelor degree</p><br>
                         </div>
                     </div>
-
                     <div class="w3-container w3-card w3-white">
                         <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Technology</h2>
                         <p class="w3-large"><b><i class="fa fa-globe fa-fw w3-margin-right w3-text-teal"></i>Programming</b></p>
@@ -197,6 +280,7 @@
                         <p></p>
                         <br>
                     </div>
+                    -->
                     <!-- End Right Column -->
                 </div>
                 <!-- End Grid -->
@@ -204,8 +288,9 @@
             <!-- End Page Container -->
         </div>
         <footer class="w3-container w3-teal w3-center w3-margin-top">
-            <p>Find me on social media.</p>
+            <p>Copyright © 2019 Mohammad Nasiruddin</p>
             <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
         </footer>
     </body>
+
 </html>
